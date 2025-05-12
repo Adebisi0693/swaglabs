@@ -8,6 +8,7 @@ module.exports = defineConfig({
     viewportWidth: 1400,
     watchForFileChanges: false,
     chromeWebSecurity: false,
+    //specPattern: 'cypress\e2e\allSpec.spec.cy.js',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
